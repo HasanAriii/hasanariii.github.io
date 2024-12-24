@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Portfolio</span>
+            </div>
+            <ul>
+                <li><a href="#anasayfa" class="nav-link">Ana Sayfa</a></li>
+                <li><a href="#hakkimda" class="nav-link">Hakkımda</a></li>
+                <li><a href="#yetenekler" class="nav-link">Yetenekler</a></li>
+                <li><a href="#projeler" class="nav-link">Projeler</a></li>
+                <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa" class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="Hoş Geldiniz">Hoş Geldiniz</h1>
+                </div>
+                <p class="hero-name">ben Hasan ARI</p>
+                <p class="tagline">Yazılım Mühendisi</p>
+                <div class="social-links">
+                    <a href="https://github.com/HasanAriii" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hasan-ar%C4%B1-5401932a1/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="#projeler" class="scroll-down">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+            <div class="hero-background">
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+            </div>
+        </section>
+
+        <section id="hakkimda" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Hakkımda</h2>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <p>Siber güvenlik ve DevOps ile uğraşıyorum. Aynı zamanda kendimi veri yapılarında geliştirmeye çalışıyorum. TryHackMe ve leetcode'da vakit geçiriyorum. İyi bir Siber Güvenlik Uzmanı olmak için çabalıyorum. Mühendis kafa yapısına ulaşmaya çalışıyorum. Ekip çalışmasına yatkınım ve öğrenmeye istekliyim.</p>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-wrapper">
+                            <img src="56303285.jpg" alt="Profil Fotoğrafı">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="yetenekler" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Yetenekler</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="50" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">50%</span>
+                    </div>
+                    
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="50" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">50%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="50" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">50%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="skill-icon">
+                            <img src="kubernetes-icon.png" alt="Kubernetes" class="skill-image">
+                        </div>
+                        <h3>Kubernetes</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="45" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">45%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="skill-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <h3>Docker</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="50" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">50%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="skill-icon">
+                            <img src="C_Logo.png" alt="C" class="skill-image">
+                        </div>
+                        <h3>C</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="65" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">65%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="skill-icon">
+                            <img src="cpp_logo_no_bg_manual.png" alt="C++" class="skill-image">
+                        </div>
+                        <h3>C++</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="65" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">65%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="skill-icon">
+                            <img src="output-onlinepngtools.png" alt="Python" class="skill-image">
+                        </div>
+                        <h3>Python</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="45" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">45%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="skill-icon">
+                            <img src="free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945040.webp" alt="MySQL" class="skill-image">
+                        </div>
+                        <h3>MySQL</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="65" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">65%</span>
+                    </div>
+        
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
+                        <div class="skill-icon">
+                            <img src="output-onlinepngtools(1).png" alt="Java" class="skill-image">
+                        </div>
+                        <h3>Java</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="50" style="width: 0%"></div>
+                        </div>
+                        <span class="skill-level">50%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeler" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Projeler</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="" alt="">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3></h3>
+                            <p>Çok yakında.</p>
+                            <div class="project-tags">
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Diğer proje kartları benzer şekilde -->
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">İletişim</h2>
+                <div class="contact-content">
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="0">
+                        <i class="fas fa-envelope"></i>
+                        <h3>E-posta</h3>
+                        <p>030723072@std.izu.edu.tr</p>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefon</h3>
+                        <p>+90 530 352 5942</p>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Konum</h3>
+                        <p>İstanbul, Türkiye</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/HasanAriii" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hasan-ar%C4%B1-5401932a1/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Hasan ARI. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
